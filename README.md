@@ -38,6 +38,12 @@ This notebook walks through:
 Primary notebook in this repo:
 - `ToolsVsSkills_Examples.ipynb`
 
+Agent pattern notebook suite index:
+- `AIAgentDesignPatterns.ipynb`
+
+New state-aggregation example notebook:
+- `12_Annotated_State_Aggregation.ipynb`
+
 Original/source notebook used for the post:
 - `/Users/arifshaikh/Development/Coursera/notebooks/ToolsVsSkills_Examples.ipynb`
 

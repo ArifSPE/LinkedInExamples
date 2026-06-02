@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import operator
+from typing import Annotated
+
 from typing_extensions import Literal, TypedDict
 
 
@@ -59,3 +62,10 @@ class StatefulAgentState(TypedDict):
     draft: str
     final_answer: str
     history: list[str]
+
+
+class AggregationState(TypedDict):
+    user_request: str
+    results: Annotated[list[dict], operator.add]
+    history: Annotated[list[str], operator.add]
+    final_answer: str
