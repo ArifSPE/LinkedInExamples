@@ -1,0 +1,16 @@
+{
+  "event_types": [
+    "goal",
+    "red_card",
+    "yellow_card",
+    "penalty_awarded",
+    "penalty_scored",
+    "penalty_missed",
+    "own_goal",
+    "first_career_goal",
+    "substitution",
+    "injury_stoppage",
+    "var_review",
+    "none"
+  ]
+}
